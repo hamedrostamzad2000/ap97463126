@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="rangekollemenuasli" alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Rais">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+
+
+
+
+
+      <AnchorPane fx:id="safhetaidrais" prefHeight="600" prefWidth="600" style="-fx-background-image: url(&quot;/img/t.jpg&quot;);" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+         <children>
+
+             
+
+
+
+
+            <TextField fx:id="daryaftusernamerais" layoutX="158.0" layoutY="77.0" prefHeight="41.0" prefWidth="251.0" promptText="USERNAME">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></TextField>
+            <Button fx:id="taidpasswordrais" layoutX="234.0" layoutY="454.0" mnemonicParsing="false" text="تایید" textFill="#111111">
+               <font>
+                  <Font name="Arial Bold" size="36.0" />
+               </font></Button>
+            <PasswordField fx:id="passwordrais" layoutX="158.0" layoutY="159.0" prefHeight="41.0" prefWidth="251.0" promptText="PASSWORD">
+               <font>
+                  <Font name="Arial Bold Italic" size="18.0" />
+               </font></PasswordField>
+
+         </children>
+      </AnchorPane>
+
+
+
+
+
+
+
+
+
+
+<AnchorPane fx:id="safhedoctorhavaparastarha" prefHeight="600" prefWidth="600" visible="false" style="-fx-background-image: url(&quot;/img/t.jpg&quot;);" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="doctor1" layoutX="181.0" layoutY="105.0" promptText="دکتر۱">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></TextField>
+      <TextField fx:id="doctor2" layoutX="181.0" layoutY="158.0" promptText="دکتر۲">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></TextField>
+      <TextField fx:id="doctor3" layoutX="181.0" layoutY="224.0" promptText="دکتر۳">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></TextField>
+      <Button fx:id="taidestekhdamedoctorha" layoutX="158.0" layoutY="534.0" mnemonicParsing="false" text="تایید لیست پزشکان و پرستاران">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font></Button>
+      <Button fx:id="didaneestekhdamedoctorha" layoutX="149.0" layoutY="33.0" mnemonicParsing="false" text=" دیدن لیست پزشکان و پرستاران">
+               <font>
+                  <Font name="Arial Bold" size="24.0" />
+               </font></Button>
+      <TextField fx:id="parastar1" layoutX="181.0" layoutY="317.0" promptText="پرستار۱">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></TextField>
+      <TextField fx:id="parastar2" layoutX="181.0" layoutY="390.0" promptText="پرستار۲">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></TextField>
+      <TextField fx:id="parastar3" layoutX="181.0" layoutY="457.0" promptText="پرستار۳">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></TextField>
+   </children>
+</AnchorPane>
+
+
+
+   </children>
+</GridPane>

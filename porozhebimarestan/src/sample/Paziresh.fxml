@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.paziresh">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane fx:id="menupaziresh" prefHeight="600.0" prefWidth="600.0" style="-fx-background-image: url(&quot;img/t.jpg&quot;);">
+            <children>
+
+                
+
+                <CheckBox fx:id="mard" layoutX="408.0" layoutY="204.0" mnemonicParsing="false" text="مرد">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></CheckBox>
+            <TextField fx:id="namebimar" layoutX="196.0" layoutY="41.0" promptText="نام بیمار">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></TextField>
+            <CheckBox fx:id="zan" layoutX="119.0" layoutY="204.0" mnemonicParsing="false" text="زن">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></CheckBox>
+            <Button fx:id="taidpaziresh" layoutX="230.0" layoutY="531.0" mnemonicParsing="false" text="تایید">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></Button>
+            <RadioButton fx:id="pardakhtepol" layoutX="223.0" layoutY="257.0" mnemonicParsing="false" text="اطلاعات کامل وارد شد">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="doctor1" layoutX="37.0" layoutY="481.0" mnemonicParsing="false" text="دکتر امیرپور">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="doctor2" layoutX="434.0" layoutY="481.0" mnemonicParsing="false" text="دکتر قنبری">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="doctor3" layoutX="258.0" layoutY="481.0" mnemonicParsing="false" text="دکتر سلیمی">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></RadioButton>
+            <TextField fx:id="shomaretabaghe" layoutX="458.0" layoutY="121.0" prefHeight="31.0" prefWidth="50.0" promptText="طبقه">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></TextField>
+            <TextField fx:id="shomareotagh" layoutX="277.0" layoutY="121.0" prefHeight="31.0" prefWidth="47.0" promptText="اتاق">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></TextField>
+            <TextField fx:id="shomaretakht" layoutX="78.0" layoutY="121.0" prefHeight="31.0" prefWidth="50.0" promptText="تخت">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></TextField>
+            <RadioButton fx:id="moraghebatvizhe" layoutX="434.0" layoutY="351.0" mnemonicParsing="false" text="مراقبت های ویژه">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="sterilize" layoutX="258.0" layoutY="351.0" mnemonicParsing="false" text="اتاق استریلیزه">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="organs" layoutX="36.0" layoutY="351.0" mnemonicParsing="false" text="اورژانس">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="parastar1" layoutX="36.0" layoutY="406.0" mnemonicParsing="false" text="پرستار فاطمه">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="parastar2" layoutX="254.0" layoutY="406.0" mnemonicParsing="false" text="پرستار زهرا">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></RadioButton>
+            <RadioButton fx:id="parastar3" layoutX="437.0" layoutY="406.0" mnemonicParsing="false" text="پرستار خدیجه">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></RadioButton>
+            <Label layoutX="501.0" layoutY="204.0" text="جنسیت بیمار :">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></Label>
+            <Button fx:id="moshahedelistpaziresh" layoutX="309.0" layoutY="531.0" mnemonicParsing="false" text="مشاهده لیست پذیرش">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font></Button>
+
+            </children>
+        </AnchorPane>
+
+
+
+
+
+
+
+
+        <AnchorPane fx:id="safhelistpaziresh" prefHeight="600" prefWidth="600" visible="false" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+         <children>
+
+
+
+            <Label fx:id="listpaziresh" layoutX="13.0" layoutY="32.0" prefHeight="553.0" prefWidth="571.0" text="لیست پذیرش">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font></Label>
+         </children>
+        </AnchorPane>
+
+
+
+
+
+
+    </children>
+</GridPane>

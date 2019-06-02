@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-image: url(&quot;/img/t.jpg&quot;);" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Vahedhayebimarestan">
+   <children>
+      <Button fx:id="entekhaborgans" layoutX="249.0" layoutY="147.0" mnemonicParsing="false" text="اورژانس">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font></Button>
+      <Button fx:id="entekhabmoraghebatvizhe" layoutX="179.0" layoutY="364.0" mnemonicParsing="false" text="اتاق مراقبت های ویژه">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Button>
+      <Button fx:id="entekhabsterilize" layoutX="228.0" layoutY="257.0" mnemonicParsing="false" text="اتاق استریلیزه">
+         <font>
+            <Font name="Arial Bold Italic" size="24.0" />
+         </font></Button>
+      <Label layoutX="129.0" layoutY="27.0" text="به کدام بخش می خواهید بروید">
+         <font>
+            <Font name="Arial Bold Italic" size="36.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

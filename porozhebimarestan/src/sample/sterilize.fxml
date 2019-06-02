@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-image: url(&quot;/img/t.jpg&quot;);" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Sterilize">
+
+    <children>
+        <Button fx:id="didanlistbimaransterilize" layoutX="178.0" layoutY="123.0" mnemonicParsing="false" text="دیدن لیست بیماران">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font></Button>
+        <Button fx:id="taidlistbimaransterilize" layoutX="206.0" layoutY="488.0" mnemonicParsing="false" text="تایید و ویزیت">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font></Button>
+        <Label fx:id="listbimaransterilize" layoutX="30.0" layoutY="196.0" prefHeight="265.0" prefWidth="535.0" text="لیست بیماران" textAlignment="RIGHT">
+         <font>
+            <Font name="Arial Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="189.0" layoutY="32.0" prefHeight="70.0" prefWidth="171.0" text="اتاق استریلیزه">
+         <font>
+            <Font name="Arial" size="36.0" />
+         </font></Label>
+    </children>
+
+</AnchorPane>
